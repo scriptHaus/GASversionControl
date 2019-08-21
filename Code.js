@@ -1,6 +1,16 @@
 // Script is from github.com/scriptHaus
 // Use is licensed under GPL v3.0
 
+// ------------------- UI Function ----------------------------
+function onOpen() {
+    var ui = SpreadsheetApp.getUi();
+    ui.createMenu('Version Control')
+        .addItem('Save Workbook', 'versionControl')
+        .addToUi();
+}
+
+// ------------------ Download function ------------------------
+
 function versionControl() {
  
     var ss = SpreadsheetApp.getActiveSpreadsheet();
