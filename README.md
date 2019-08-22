@@ -21,7 +21,7 @@ Once you have saved the file, you are ready to use GASversionControl!
 ---
 ### Using the script for the first time
 
-In order to use this script for the forst time, you will need to authorize the script to access the data.  When you open the Sidebar for the first time, you may see an Authorization prompt like this. 
+In order to use this script for the first time, you will need to authorize the script to access the data.  When you open the Sidebar for the first time, you may see an Authorization prompt like this. 
 
 ![Authorization Screenshot](screenshots/Authorization.png?raw=true "Authorization")
 
